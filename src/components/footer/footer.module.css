@@ -6,7 +6,7 @@
   font-family: 'Raleway', sans-serif;
 }
 .logoChange{
-  width:50px;
+  width:75px;
 }
 .posterChange{
   width:250px;
@@ -18,10 +18,9 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  padding-bottom: 20px;
 }
-.sub1MainDiv1{
-  height:165.33px
-}
+
 
 .sub2MainDiv1{
   display: flex;
@@ -31,13 +30,14 @@
   padding-top:35px;
 }
 .paraG{
-    font-size: 9px;
+    font-size: 12px;
+  font-weight:bold;
 
 }
 ul{
   list-style: none;
 }
-li{
+li,.h6,.p{
   padding:8px;
 }
 .sub2MainDiv2{
@@ -49,4 +49,7 @@ li{
 }
 .sub2P2s1MainDiv2{
   font-size: 12px;
+}
+.h6 {
+  font-size:13px;
 }

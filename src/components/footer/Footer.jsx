@@ -45,8 +45,8 @@ export default function Footer() {
             </div>
             <div class={FooterStyle.sub2P2MainDiv2}>
               <div class={FooterStyle.sub2P2s1MainDiv2}>
-                <h6>Let's chat!</h6>
-                <p>mailtosreesankar@gmail.com</p>
+                <h6 class={FooterStyle.h6}>Let's chat!</h6>
+                <p class={FooterStyle.p}>mailtosreesankar@gmail.com</p>
                 <div class={FooterStyle.logoCahin}></div>
               </div>
             </div>
