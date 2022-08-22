@@ -17,7 +17,7 @@ export default function Footer() {
           <div class={FooterStyle.sub2MainDiv1}>
             <div class={FooterStyle.sub2P1MainDiv1}>
               <img class={FooterStyle.logoChange} src="https://cdn.glitch.global/1f2e8776-0d5d-40c2-b754-4ea7e29b14c7/logorem.png" alt="logo" />
-              <p>Make some awesome blogs!</p>
+              <p class={FooterStyle.paraG}>Make some awesome blogs!</p>
             </div>
 
             <div class={FooterStyle.sub2P2MainDiv1}>

@@ -15,8 +15,14 @@
 .footerClass {
   background-color: #1b2430;
   color: white;
-  min-width: 100vh;
   display: flex;
   justify-content: space-evenly;
-  
+  flex-wrap: wrap;
+}
+.sub2MainDiv1{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  font-size: 12px;
+  padding-top:35px
 }
