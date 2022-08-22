@@ -32,20 +32,28 @@ li,.h6,.p{
   display: flex;
   gap: 10px 100px;
   flex-wrap: wrap;
-  padding-bottom: 20px;
   justify-content: center;
 
 }
 
 .mainDiv1{
   display:flex;
+  flex-direction:column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.mainDiv2{
+    display:flex;
+  flex-direction:column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .sub1MainDiv1{
   display: flex;
-  justify-content: space-evenly;
+  flex-direction:row;
   flex-wrap: wrap;
- 
 }
 
 .sub2MainDiv1{
@@ -53,7 +61,6 @@ li,.h6,.p{
   justify-content: space-evenly;
   flex-wrap: wrap;
   font-size: 12px;
-  padding-top:35px;
 }
 
 .sub2MainDiv2{
@@ -61,7 +68,6 @@ li,.h6,.p{
   justify-content: space-evenly;
   flex-wrap: wrap;
   font-size: 12px;
-  padding-top:35px;
 }
 .sub2P2s1MainDiv2{
   font-size: 12px;
