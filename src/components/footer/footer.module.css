@@ -55,12 +55,15 @@ li,.h6,.p{
   flex-direction:column;
   justify-content: space-evenly;
   flex-wrap: wrap;
+    align-content: flex-end;
+
 }
 
 .sub1MainDiv1{
   display: flex;
   flex-direction:row;
   flex-wrap: wrap;
+  align-content:flex-end;
 }
 
 .sub2MainDiv1{
@@ -68,6 +71,8 @@ li,.h6,.p{
   justify-content: space-evenly;
   flex-wrap: wrap;
   font-size: 12px;
+    align-content:flex-end;
+
 }
 
 .sub2MainDiv2{
@@ -76,6 +81,8 @@ li,.h6,.p{
   flex-wrap: wrap;
   font-size: 12px;
    gap: 10px 90px;
+    align-content:flex-end;
+
 }
 .sub2P2s1MainDiv2{
   font-size: 12px;
