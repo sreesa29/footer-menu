@@ -48,7 +48,7 @@ export default function Footer() {
               <div class={FooterStyle.sub2P2s1MainDiv2}>
                 <h6 class={FooterStyle.h6}>Let's chat!</h6>
                 <p class={FooterStyle.p}>email us</p>
-                <div class={FooterStyle.p, FooterStyle.logosP}>
+                <div class={ FooterStyle.logosP}>
                   <AiFillFacebook style={{fontSize:"18px"}} />
                   <AiFillTwitterSquare style={{fontSize:"18px"}} />
                   <AiFillLinkedin style={{fontSize:"18px"}}/>
