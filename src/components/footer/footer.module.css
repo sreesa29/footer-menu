@@ -11,6 +11,20 @@
 .posterChange{
   width:250px;
 }
+.paraG{
+    font-size: 12px;
+  font-weight:bold;
+
+}
+ul{
+  list-style: none;
+}
+li,.h6,.p{
+  padding:8px;
+}
+.h6 {
+  font-size:13px;
+}
 
 .footerClass {
   background-color: #1b2430;
@@ -29,17 +43,7 @@
   font-size: 12px;
   padding-top:35px;
 }
-.paraG{
-    font-size: 12px;
-  font-weight:bold;
 
-}
-ul{
-  list-style: none;
-}
-li,.h6,.p{
-  padding:8px;
-}
 .sub2MainDiv2{
    display: flex;
   justify-content: space-evenly;
@@ -50,6 +54,8 @@ li,.h6,.p{
 .sub2P2s1MainDiv2{
   font-size: 12px;
 }
-.h6 {
-  font-size:13px;
+
+.mainDiv1{
+  display:flex;
+  flex-wrap: wrap;
 }
