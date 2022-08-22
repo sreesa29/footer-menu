@@ -9,7 +9,7 @@
   width:75px;
 }
 .posterChange{
-  width:250px;
+  height:165px;
 }
 .paraG{
     font-size: 12px;
@@ -26,6 +26,12 @@ li,.h6,.p{
   font-size:13px;
 }
 
+.formClassSub1{
+  height:165px;
+}
+
+
+
 .footerClass {
   background-color: #1b2430;
   color: white;
@@ -33,6 +39,7 @@ li,.h6,.p{
   gap: 10px 100px;
   flex-wrap: wrap;
   justify-content: center;
+  padding:25px;
 
 }
 
@@ -68,6 +75,7 @@ li,.h6,.p{
   justify-content: space-evenly;
   flex-wrap: wrap;
   font-size: 12px;
+   gap: 10px 90px;
 }
 .sub2P2s1MainDiv2{
   font-size: 12px;
