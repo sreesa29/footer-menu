@@ -19,6 +19,10 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+.sub1MainDiv1{
+  height:165.33px
+}
+
 .sub2MainDiv1{
   display: flex;
   justify-content: space-evenly;
@@ -35,4 +39,14 @@ ul{
 }
 li{
   padding:8px;
+}
+.sub2MainDiv2{
+   display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  font-size: 12px;
+  padding-top:35px;
+}
+.sub2P2s1MainDiv2{
+  font-size: 12px;
 }
