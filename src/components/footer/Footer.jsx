@@ -1,6 +1,6 @@
 import React from "react";
 import FooterStyle from "./footer.module.css";
-import { AiFillFacebook,AiFillTwitter,AiFillLinkedin,AiFillInstagram } from "react-icons/ai";
+import { AiFillFacebook, AiFillTwitterSquare, AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
 
 export default function Footer() {
   return (
@@ -48,9 +48,11 @@ export default function Footer() {
               <div class={FooterStyle.sub2P2s1MainDiv2}>
                 <h6 class={FooterStyle.h6}>Let's chat!</h6>
                 <p class={FooterStyle.p}>email us</p>
-                <div class={FooterStyle.logoCahin}>
-                  <AiFillFacebook />
-                <AiFillTwitter /> <AiFillLinkedin/> <AiFillInstagram/>
+                <div class={FooterStyle.p, FooterStyle.logosP}>
+                  <AiFillFacebook style={{fontSize:"18px"}} />
+                  <AiFillTwitterSquare style={{fontSize:"18px"}} />
+                  <AiFillLinkedin style={{fontSize:"18px"}}/>
+                  <AiFillInstagram style={{fontSize:"18px"}}/>
                 </div>
               </div>
             </div>
