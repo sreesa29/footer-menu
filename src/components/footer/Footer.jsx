@@ -7,7 +7,7 @@ export default function Footer() {
       <footer class={FooterStyle.footerClass}>
         <div class={FooterStyle.mainDiv1}>
           <div class={FooterStyle.sub1MainDiv1}>
-            <form class={FooterStyle.formClassSub1}>
+            <form>
              <p>Subscribe Us</p>
               <input type="email" required></input>
               <button>Submit</button>
