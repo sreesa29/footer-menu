@@ -1,4 +1,16 @@
-.footerClass{
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.footerClass {
+  background-color: #1b2430;
+  color: white;
+  min-width: 100vh;
+  display: flex;
   
   
 }
