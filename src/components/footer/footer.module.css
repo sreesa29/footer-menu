@@ -54,20 +54,21 @@ li,
   flex-wrap: wrap;
 }
 
-form+subscribe+button
+/* form+subscribe+button */
 .sub1MainDiv1 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-//logo+awesomewordsLEFT
+/* logo+awesomewordsLEFT */
 .sub2MainDiv1 {
   display: flex;
   flex-wrap: wrap;
   font-size: 12px;
 }
 
+/*  PRIVACY + LETS CHAT*/
 .sub2MainDiv2 {
   display: flex;
   flex-wrap: wrap;
