@@ -7,7 +7,7 @@ export default function Footer() {
       <footer class={FooterStyle.footerClass}>
         <div class={FooterStyle.mainDiv1}>
           <div class={FooterStyle.sub1MainDiv1}>
-            <p>Subribe Us</p>
+            <p>Subsribe Us</p>
             <form class={FooterStyle.formClassSub1}>
               <input type="email" required></input>
               <button>Submit</button>
@@ -16,7 +16,7 @@ export default function Footer() {
 
           <div class={FooterStyle.sub2MainDiv1}>
             <div class={FooterStyle.sub2P1MainDiv1}>
-              <img src="#" alt="logo" />
+              <img class={FooterStyle.logoChange} src="https://cdn.glitch.global/1f2e8776-0d5d-40c2-b754-4ea7e29b14c7/logorem.png" alt="logo" />
               <p>Make some awesome blogs!</p>
             </div>
 
@@ -32,7 +32,7 @@ export default function Footer() {
 
         <div class={FooterStyle.mainDiv2}>
           <div class={FooterStyle.sub1MainDiv2}>
-            <img src="#" alt="sailing pic" />
+            <img src="https://cdn.glitch.global/1f2e8776-0d5d-40c2-b754-4ea7e29b14c7/shipremove.png" alt="sailing pic" class={FooterStyle.posterChange} />
           </div>
 
           <div class={FooterStyle.sub2MainDiv2}>

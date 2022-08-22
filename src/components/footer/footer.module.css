@@ -5,6 +5,12 @@
   margin: 0;
   font-family: 'Raleway', sans-serif;
 }
+.logoChange{
+  width:50px;
+}
+.posterChange{
+  width:250px;
+}
 
 .footerClass {
   background-color: #1b2430;
