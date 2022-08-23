@@ -112,3 +112,12 @@
   color: gold;
   cursor: pointer;
 }
+
+.li::before{
+    text-decoration: underline;
+
+}
+.li:hover{
+ transition: text-decoration left 2s;
+  transition-delay: 0s;
+}
