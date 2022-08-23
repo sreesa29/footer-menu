@@ -9,13 +9,13 @@
 
 .logoChange {
   width: 75px;
+  padding:0;
 }
-
-
 
 .paraG {
   font-size: 12px;
   font-weight: bold;
+  padding:0;
 }
 
 .ul{
@@ -52,6 +52,17 @@
   flex-direction: row;
   flex-wrap: wrap;
   height: 165px;
+  padding:0;
+}
+
+/* 8 */
+/* Sailing Pics */
+.sub1MainDiv2{
+  max-height:165px;
+}
+
+.posterChange{
+  height:162px;
 }
 
 /* 4 */
@@ -59,7 +70,7 @@
 .sub2MainDiv1 {
   display: flex;
   flex-wrap: wrap;
-  height: 165px;
+  padding:0;
 }
 
 /* 9 */
@@ -68,6 +79,7 @@
   display: flex;
   flex-wrap: wrap;
   font-size: 12px;
+  padding:0;
 }
 
 
