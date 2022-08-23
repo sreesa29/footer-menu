@@ -120,7 +120,16 @@
 .formClassI{
   border: none;
   background: transparent;
-  border-bottom: 2px solid white;
-  max-width: 200px;
-  color: "white";
+  border-bottom: 2px solid gray;
+  min-width: 200px;
+  color: white;
+}
+.formClassI:focus{
+  outline: none;
+  color: white
+}
+.formClass{
+  display: flex;
+  align-content: center;
+  padding-top:55px
 }
