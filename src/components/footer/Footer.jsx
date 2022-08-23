@@ -14,7 +14,7 @@ export default function Footer() {
           {/* 3 */}
           <div class={FooterStyle.sub1MainDiv1}>
             <form>
-             <p>Subscribe Us</p>
+             <p class={FooterStyle.subscribeClass}>Subscribe Us</p>
               <div class={FooterStyle.formClass}>
               <input type="email" class={FooterStyle.formClassI} placeholder="Your email" required></input>
               <button class={FooterStyle.buttonclass}><IoPaperPlane /></button>
@@ -69,7 +69,7 @@ export default function Footer() {
               {/* 12 */}
               <div class={FooterStyle.sub2P2s1MainDiv2}>
                 <p class={FooterStyle.p}>Let's chat!</p>
-                <p class={FooterStyle.p}>email us</p>
+                <p class={FooterStyle.p}><a href="mailto:sreesankar29@gmail.com?subject=Hey,%20I%20wanna%20talk" style={{textDecoration:"none", color:"white"}}> email us </a> </p>
                 </div>
               {/* 12 closes */}
                 {/* 13 */}
