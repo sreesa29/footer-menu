@@ -27,10 +27,7 @@ li,
   font-size: 13px;
 }
 
-.formClassSub1 {
-  height: 165px;
-}
-
+/* 1 */
 /* the whole thing */
 .footerClass {
   background-color: #1b2430;
@@ -39,26 +36,27 @@ li,
   flex-wrap: wrap;
   padding: 25px;
 }
-
+/* 2 */
 /* the left side one */
 .mainDiv1 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
-
+/* 7 */
 /* the right side one */
 .mainDiv2 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
-
+/* 3 */
 /* form+subscribe+button */
 .sub1MainDiv1 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  height: 165px;
 }
 
 /* logo+awesomewordsLEFT */

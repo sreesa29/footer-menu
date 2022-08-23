@@ -72,6 +72,7 @@ export default function Footer() {
                   <AiFillLinkedin style={{fontSize:"18px"}}/>
                   <AiFillInstagram style={{fontSize:"18px"}}/>
                 </div>
+                {/* 13 closes */}
               </div>
               {/* 12 closes */}
             </div>
@@ -80,7 +81,9 @@ export default function Footer() {
           {/* 9 closes */}
         </div>
         {/* 7 closes */}
+        
       </footer>
+       {/* 1 closes */}
     </>
   );
 }
