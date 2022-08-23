@@ -129,9 +129,9 @@
   padding-right: 25px;
   font-size: 50px;
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
 .sub2P2MainDiv2{
-  padding-left:100px;
+  padding-left:20px;
   }}
 @media only screen and (min-width: 600px) {
 .sub2P2MainDiv2{
