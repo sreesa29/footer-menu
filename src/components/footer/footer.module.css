@@ -119,5 +119,8 @@
 }
 .formClassI{
   border: none;
-  back-ground:
+  background: transparent;
+  border-bottom: 2px solid white;
+  max-width: 200px;
+  color: "white";
 }
