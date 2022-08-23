@@ -9,13 +9,11 @@
 
 .logoChange {
   width: 75px;
-  padding:0;
 }
 
 .paraG {
   font-size: 12px;
   font-weight: bold;
-  padding:0;
 }
 
 .ul{
@@ -33,11 +31,25 @@
 }
 /* 2 */
 /* the left side one */
+@media only screen and (min-width: 600px) {
 .mainDiv1 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  margin-left:50px;
+  margin-right:120px;
 }
+}
+/* Mobile View for the same*/
+@media only screen and (max-width: 600px) {
+  .mainDiv1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-right:120px;
+  }
+}
+
 /* 7 */
 /* the right side one */
 .mainDiv2 {
@@ -52,7 +64,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   height: 165px;
-  padding:0;
+
 }
 
 /* 8 */
@@ -70,7 +82,7 @@
 .sub2MainDiv1 {
   display: flex;
   flex-wrap: wrap;
-  padding-left:25px;
+ 
 }
 
 /* 5 */
@@ -85,7 +97,6 @@
   display: flex;
   flex-wrap: wrap;
   font-size: 12px;
-  padding:0;
 }
 
 
