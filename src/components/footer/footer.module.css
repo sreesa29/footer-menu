@@ -16,8 +16,8 @@
   font-weight: bold;
 }
 
-.ul{
-  list-style:none;
+.ul {
+  list-style: none;
 }
 
 /* 1 */
@@ -31,31 +31,52 @@
 }
 /* 2 */
 /* the left side one */
-@media only screen and (min-width: 600px) {
-.mainDiv1 {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  margin-left:50px;
-  margin-right:120px;
-}
+@media only screen and (min-width: 950px) {
+  .mainDiv1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 120px;
+  }
 }
 /* Mobile View for the same*/
+
+@media only screen and (max-width: 850px) {
+  .mainDiv2 {
+    margin-left: 45px;
+    margin-right: 120px;
+  }
+}
 @media only screen and (max-width: 600px) {
   .mainDiv1 {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  margin-right:120px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 120px;
   }
 }
 
 /* 7 */
 /* the right side one */
-.mainDiv2 {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+@media only screen and (min-width: 600px) {
+  .mainDiv2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 90px;
+  }
+}
+
+/* Mobile View for the same */
+
+@media only screen and (max-width: 600px) {
+  .mainDiv2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 120px;
+  }
 }
 /* 3 */
 /* form+subscribe+button */
@@ -64,17 +85,16 @@
   flex-direction: row;
   flex-wrap: wrap;
   height: 165px;
-
 }
 
 /* 8 */
 /* Sailing Pics */
-.sub1MainDiv2{
-  max-height:165px;
+.sub1MainDiv2 {
+  max-height: 165px;
 }
 
-.posterChange{
-  height:162px;
+.posterChange {
+  height: 162px;
 }
 
 /* 4 */
@@ -82,13 +102,12 @@
 .sub2MainDiv1 {
   display: flex;
   flex-wrap: wrap;
- 
 }
 
 /* 5 */
 /* logo+ make awesome */
-.sub2P1MainDiv1{
-  padding-right:50px;
+.sub2P1MainDiv1 {
+  padding-right: 50px;
 }
 
 /* 9 */
@@ -99,16 +118,14 @@
   font-size: 12px;
 }
 
-
-.li, .p{
-  padding-top:20px;
+.li,
+.p {
+  padding-top: 20px;
   font-size: 12px;
-
 }
 
 /* individual selection for logos */
-.logoPF{
-  padding-right:25px;
-  font-size:50px;
+.logoPF {
+  padding-right: 25px;
+  font-size: 50px;
 }
-
