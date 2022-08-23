@@ -65,7 +65,9 @@ export default function Footer() {
               <div class={FooterStyle.sub2P2s1MainDiv2}>
                 <p class={FooterStyle.p}>Let's chat!</p>
                 <p class={FooterStyle.p}>email us</p>
-                {/* 13 closes */}
+                </div>
+              {/* 12 closes */}
+                {/* 13 */}
                 <div class={ FooterStyle.logosP}>
                   <AiFillFacebook class={FooterStyle.logoPF} />
                   <AiFillTwitterSquare class={FooterStyle.logoPF}  />
@@ -73,8 +75,7 @@ export default function Footer() {
                   <AiFillInstagram class={FooterStyle.logoPF} />
                 </div>
                 {/* 13 closes */}
-              </div>
-              {/* 12 closes */}
+              
             </div>
             {/* 11 closes */}
           </div>
