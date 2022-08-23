@@ -18,14 +18,7 @@
 ul {
   list-style: none;
 }
-li,
-.h6,
-.p {
-  padding: 9.5px;
-}
-.h6 {
-  font-size: 13px;
-}
+
 
 /* 1 */
 /* the whole thing */
@@ -59,6 +52,7 @@ li,
   height: 165px;
 }
 
+/* 4 */
 /* logo+awesomewordsLEFT */
 .sub2MainDiv1 {
   display: flex;
@@ -66,17 +60,16 @@ li,
   font-size: 12px;
 }
 
+/* 9 */
 /*  PRIVACY + LETS CHAT*/
 .sub2MainDiv2 {
   display: flex;
   flex-wrap: wrap;
   font-size: 12px;
+  justify-content: space-evenly;
 }
+/* 12  */
+/* lets chat + logosBrand  */
 .sub2P2s1MainDiv2 {
   font-size: 12px;
-}
-
-.logosP{
-    padding: 9.5px 0px 0px 9.5px;
-
 }
