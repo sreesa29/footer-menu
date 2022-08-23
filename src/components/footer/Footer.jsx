@@ -1,6 +1,8 @@
 import React from "react";
 import FooterStyle from "./footer.module.css";
 import { AiFillFacebook, AiFillTwitterSquare, AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
+import { IoPaperPlane } from "react-icons/io5";
+
 
 export default function Footer() {
   return (
@@ -15,7 +17,7 @@ export default function Footer() {
              <p>Subscribe Us</p>
               <div class={FooterStyle.formClass}>
               <input type="email" class={FooterStyle.formClassI} placeholder="Your email" required></input>
-              <button>Submit</button>
+              <button class={FooterStyle.buttonclass}><IoPaperPlane /></button>
                 </div>
             </form>
               
