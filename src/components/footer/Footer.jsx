@@ -28,10 +28,10 @@ export default function Footer() {
           {/* 5 closes */}
           {/* 6 */}
             <div class={FooterStyle.sub2P2MainDiv1}>
-              <ul>
-                <li>About</li>
-                <li>Jobs</li>
-                <li>Docs</li>
+              <ul class={FooterStyle.ul}>
+                <li class={FooterStyle.li}>About</li>
+                <li class={FooterStyle.li}>Jobs</li>
+                <li class={FooterStyle.li}>Docs</li>
               </ul>
             </div>
             {/* 6 closes */}
@@ -52,7 +52,7 @@ export default function Footer() {
           <div class={FooterStyle.sub2MainDiv2}>
             {/* 10 */}
             <div class={FooterStyle.sub2P1MainDiv2}>
-              <ul>
+              <ul class={FooterStyle.ul}>
                 <li class={FooterStyle.li}>Terms and Conditions</li>
                 <li class={FooterStyle.li}>Privacy Policy</li>
                 <li class={FooterStyle.li}>Cookie Policy</li>

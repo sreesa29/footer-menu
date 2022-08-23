@@ -3,22 +3,24 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
   font-family: "Raleway", sans-serif;
 }
+
 .logoChange {
   width: 75px;
 }
-.posterChange {
-  height: 165px;
-}
+
+
+
 .paraG {
   font-size: 12px;
   font-weight: bold;
 }
-ul {
-  list-style: none;
-}
 
+.ul{
+  list-style:none;
+}
 
 /* 1 */
 /* the whole thing */
@@ -57,7 +59,7 @@ ul {
 .sub2MainDiv1 {
   display: flex;
   flex-wrap: wrap;
-  font-size: 12px;
+  height: 165px;
 }
 
 /* 9 */
@@ -66,20 +68,18 @@ ul {
   display: flex;
   flex-wrap: wrap;
   font-size: 12px;
-  justify-content: space-evenly;
 }
+
 
 .li, .p{
   padding-top:20px;
-}
-
-.logoPF{
-  padding-right:12px;
-  font-size:35px;
-}
-
-/* 12  */
-/* lets chat + logosBrand  */
-.sub2P2s1MainDiv2 {
   font-size: 12px;
+
 }
+
+/* individual selection for logos */
+.logoPF{
+  padding-right:25px;
+  font-size:50px;
+}
+
