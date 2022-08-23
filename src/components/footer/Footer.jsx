@@ -13,7 +13,7 @@ export default function Footer() {
           <div class={FooterStyle.sub1MainDiv1}>
             <form>
              <p>Subscribe Us</p>
-              <input type="email" required></input>
+              <input type="email" class={FooterStyle.formClassI} placeholder="Your email" required></input>
               <button>Submit</button>
             </form>
           </div>
