@@ -69,7 +69,7 @@ export default function Footer() {
               {/* 12 */}
               <div class={FooterStyle.sub2P2s1MainDiv2}>
                 <p class={FooterStyle.p}>Let's chat!</p>
-                <p class={FooterStyle.p}><a href="mailto:sreesankar29@gmail.com?subject=Hey,%20I%20wanna%20talk" style={{textDecoration:"none", color:"white"}}> email us </a> </p>
+                <p class={FooterStyle.p}><a href="mailto:sreesankar29@gmail.com?subject=hey,%20I%20wanna%20talk" style={{textDecoration:"none", color:"white"}}> email us </a> </p>
                 </div>
               {/* 12 closes */}
                 {/* 13 */}
