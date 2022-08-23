@@ -68,6 +68,16 @@ ul {
   font-size: 12px;
   justify-content: space-evenly;
 }
+
+.li, .p{
+  padding-top:20px;
+}
+
+.logoPF{
+  padding-right:12px;
+  font-size:35px;
+}
+
 /* 12  */
 /* lets chat + logosBrand  */
 .sub2P2s1MainDiv2 {

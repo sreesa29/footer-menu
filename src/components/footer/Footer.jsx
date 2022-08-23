@@ -53,9 +53,9 @@ export default function Footer() {
             {/* 10 */}
             <div class={FooterStyle.sub2P1MainDiv2}>
               <ul>
-                <li>Terms and Conditions</li>
-                <li>Privacy Policy</li>
-                <li>Cookie Policy</li>
+                <li class={FooterStyle.li}>Terms and Conditions</li>
+                <li class={FooterStyle.li}>Privacy Policy</li>
+                <li class={FooterStyle.li}>Cookie Policy</li>
               </ul>
             </div>
             {/* 10 closes */}
@@ -63,14 +63,14 @@ export default function Footer() {
             <div class={FooterStyle.sub2P2MainDiv2}>
               {/* 12 */}
               <div class={FooterStyle.sub2P2s1MainDiv2}>
-                <p class={FooterStyle.h6}>Let's chat!</p>
+                <p class={FooterStyle.p}>Let's chat!</p>
                 <p class={FooterStyle.p}>email us</p>
                 {/* 13 closes */}
                 <div class={ FooterStyle.logosP}>
-                  <AiFillFacebook style={{fontSize:"18px"}} />
-                  <AiFillTwitterSquare style={{fontSize:"18px"}} />
-                  <AiFillLinkedin style={{fontSize:"18px"}}/>
-                  <AiFillInstagram style={{fontSize:"18px"}}/>
+                  <AiFillFacebook class={FooterStyle.logoPF} />
+                  <AiFillTwitterSquare class={FooterStyle.logoPF}  />
+                  <AiFillLinkedin class={FooterStyle.logoPF} />
+                  <AiFillInstagram class={FooterStyle.logoPF} />
                 </div>
                 {/* 13 closes */}
               </div>
